@@ -1,5 +1,6 @@
-import weather.py
+from weather import get_weather
 
-liveWeather = get_weather('St. Louis')
+liveWeather = get_weather(41.87, -87.62)
+#get_weather(41.87, -87.62)
 
-print(weather)
+print(liveWeather)
